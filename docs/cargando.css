@@ -1,0 +1,31 @@
+body {
+    background-color: #79c5b7;
+    position: relative;
+}
+h1 {
+    font-family: 'Skranji', sans-serif;
+    font-size: 50px;
+    color: #171625;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Croissant One", sans-serif;
+    font-size: 25px;
+    color: #131039;
+
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Leckerli One", sans-serif;
+    font-size: 40px;
+    color: #2b0b59;
+    margin-right: 10px;
+}
+.justificado {
+    text-align: justify;
+}
