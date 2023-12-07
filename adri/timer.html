@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Skranji&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Stick&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap"
+    />
+    <title>Adriana Abregú</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <marquee><h2>Adriana Abregú Salvador</h2></marquee>
+      <h1 id="headline">"Cuenta Regresiva para tu Cumpleaños"</h1>
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span> días</li>
+          <li><span id="hours"></span> horas</li>
+          <li><span id="minutes"></span> minutos</li>
+          <li><span id="seconds"></span> segundos</li>
+        </ul>
+      </div>
+
+      <button id="audioButton" class="music-button">No sabo que música te gusta</button>
+      <audio id="backgroundAudio" loop autoplay style="display: none">
+        <source src="advl.m4a" type="audio/mpeg" />
+      </audio>
+
+      <button id="giratingButton" class="music-button hide-button">
+        Pizza?
+      </button>
+      <div id="imagenGiratoriaContainer">
+        <img
+          src="p1.png"
+          alt="Imagen Giratoria"
+          id="imagenGiratoria"
+          class="girating-image"
+        />
+      </div>
+
+      <button class="music-button hide-button" id="showImageButton">
+        LaLu...
+      </button>
+      <div class="container">
+        <img
+          id="showImage"
+          src="prfoto.jpg"
+          alt="Imagen"
+          style="display: none; max-width: 30%; position: absolute; z-index: 1"
+        />
+      </div>
+
+      <div id="content" class="emoji">
+        <!-- <img src="uno.png" alt="leo" class="collage-img" />
+        <img src="dos.png" alt="messi" class="collage-img" />
+        <img src="tres.png" alt="messi" class="collage-img" />
+        <span>Feliz 15 añitos Adriana!</span>
+        <img src="cuatro.png" alt="otra-imagen" class="collage-img" />
+        <img src="cinco.png" alt="messi" class="collage-img" />
+        <img src="seis.png" alt="otra-imagen" class="collage-img" /> -->
+      </div>
+      <div id="videoSection" style="display: none">
+        <!-- <video width="560" height="315" controls autoplay>
+          <source src="video0.mp4" type="video/mp4">
+      </video> -->
+      </div>
+      <marquee><h2>tus dulce 15 años</h2></marquee>
+    </div>
+    <!-- <button id="irANuevaPagina" style="display: none">Login??</button> -->
+    <script src="horita.js"></script>
+  </body>
+</html>
